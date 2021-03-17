@@ -1,1 +1,4 @@
-print('i am a girl')
+X = ['diana','NDINDA']
+
+X.count(X)
+print(X)
