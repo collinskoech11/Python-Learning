@@ -1,4 +1,2 @@
-X = ['diana','NDINDA']
-
-X.count(X)
-print(X)
+while True:
+    print('i love pizza')
