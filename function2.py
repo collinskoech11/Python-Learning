@@ -1,8 +1,7 @@
-a = 20
-b = 21
 
-def sum_number():
+
+def sum_number(a, b):
     sum = a + b
     return sum
 
-print(sum_number())
+print(sum_number(5,9))
