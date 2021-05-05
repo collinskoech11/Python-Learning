@@ -9,7 +9,7 @@ class Juice:
     def __add__(self, other):
         return Juice(self.name + ' & ' + other.name, self.capacity + other.capacity)
 
-x = Juice('orange',6)
+x = Juice('orange', 6)
 y = Juice('mango', 4)
 z =x + y
 print(z)
