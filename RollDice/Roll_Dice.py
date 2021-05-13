@@ -13,6 +13,15 @@ def main():
          print("player 2 roll: " + str(player2))
          rounds = rounds + 1
 
+         if player1 == player2:
+             print('draw')
+
+         elif player1 > player2:
+             print("player 1 wins!")
+
+         else:
+             print("player 2 wins!")
+
 def roll_dice():
     rollDice = random.randint(1, 6)
     return rollDice
