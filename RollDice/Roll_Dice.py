@@ -16,15 +16,15 @@ def main():
          rounds = rounds + 1
 
          if player1 == player2:
-             print('draw')
+             print('draw \n')
 
          elif player1 > player2:
              player1wins = player1wins + 1
-             print("player 1 wins!")
+             print("player 1 wins! \n")
 
          else:
              player2wins = player2wins + 1
-             print("player 2 wins!")
+             print("player 2 wins! \n")
 
     if player1wins == player2wins:
         print("draw")
