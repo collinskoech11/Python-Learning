@@ -9,4 +9,5 @@ class table:
 final = table("diana","ndinda")
 print(final.last)
 final.bark()
-print(final.bark)          
+
+         
