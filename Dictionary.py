@@ -4,3 +4,4 @@ she = {
 }
 
 print(she['diana'])
+#dictionary
