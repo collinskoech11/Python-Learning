@@ -11,4 +11,5 @@ second = Vector2D(10, 7)
 final = first + second
 print(final.x)
 print(final.y)
-        
+
+#magic method
