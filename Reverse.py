@@ -17,5 +17,5 @@ def reversDigits(num):
 # Driver code
 if __name__ == "__main__":
  
-    num = 4562
+    num = input('enter a number: ')
     print("Reverse of no. is ", reversDigits(num))
