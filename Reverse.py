@@ -17,5 +17,4 @@ def reversNumber(num):
     #driver code
     if __name__ == '__main__':
         num = input('enter a number: ')
-
-        print()
+        print(reversNumber(num))
