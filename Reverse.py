@@ -8,5 +8,5 @@ def reversNumber(num):
     string.reverse()
     string = ''.join(string)
 
-    #coverting to s
+    #coverting to integer
     num = int(string)
