@@ -1,4 +1,4 @@
-def reversNumber(num):
+def reversDigits(num):
 
     #converting to string
     string = str(num)
@@ -17,4 +17,4 @@ def reversNumber(num):
     #driver code
     if __name__ == '__main__':
         num = input('enter a number: ')
-        print("Reverse of no. is ", reversNumber(num))
+        print("Reverse of no. is ", reversDigits(num))
