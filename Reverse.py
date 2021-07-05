@@ -1,22 +1,21 @@
-def reverseNum(num):
-    #converting to string
-    string = str(num)
-
-    #reversing the string
-    string = list(string)
-    string.reverse()
-    string = ''.join(string)
-
-    #converting string to integer
-    num = int(string)
-
-    #returning the integer
-
-    return num
-
-    #driver code
-    if __name__ == "__main__":
-
-        num = 345
-        print(reverseNum(num))
-
+rev_num = 0
+base_pos = 1
+ 
+# Recursive function to reverse
+# digits of num
+ 
+ 
+def reversDigits(num):
+    global rev_num
+    global base_pos
+    if(num > 0):
+        reversDigits((int)(num / 10))
+        rev_num += (num % 10) * base_pos
+        base_pos *= 10
+    print(rev_num) 
+ 
+ 
+# Driver Code
+num = input('enter a number: ')
+print("Reverse of no. is ",
+      reversDigits(num))
