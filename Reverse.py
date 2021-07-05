@@ -16,6 +16,6 @@ def reversDigits(num):
  
  
 # Driver Code
-num = input('enter a number: ')
+num = input(input('enter a number: '))
 print("Reverse of no. is ",
       reversDigits(num))
