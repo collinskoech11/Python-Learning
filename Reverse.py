@@ -8,5 +8,14 @@ def reverseNum(num):
     string = ''.join(string)
 
     #converting string to integer
-    
+    num = int(string)
+
+    #returning the integer
+    return num
+
+    #driver code
+    if __name__ == '__main__':
+
+        num = input('enter a number')
+        print(reverseNum(num))
 
