@@ -8,4 +8,5 @@ def reverseNum(num):
     string = ''.join(string)
 
     #converting string to integer
+    
 
