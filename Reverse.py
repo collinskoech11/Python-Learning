@@ -10,3 +10,12 @@ def reversNumber(num):
 
     #coverting to integer
     num = int(string)
+
+    #returning integer
+    return num
+
+    #driver code
+    if __name__ == '__main__':
+        num = input('enter a number: ')
+
+        print()
