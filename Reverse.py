@@ -11,7 +11,8 @@ def reverseNum(num):
     num = int(string)
 
     #returning the integer
-    return num
+    
+    print(num) 
 
     #driver code
     if __name__ == '__main__':
