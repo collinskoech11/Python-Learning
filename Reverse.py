@@ -15,7 +15,7 @@ def reverseNum(num):
     return num
 
     #driver code
-    if __name__ == '__main__':
+    if __name__ == "__main__":
 
         num = 345
         print(reverseNum(num))
