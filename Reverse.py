@@ -11,12 +11,12 @@ def reverseNum(num):
     num = int(string)
 
     #returning the integer
-    
-    print(num) 
+
+    return num
 
     #driver code
     if __name__ == '__main__':
 
-        num = input('enter a number')
+        num = 345
         print(reverseNum(num))
 
