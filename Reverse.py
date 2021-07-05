@@ -1,7 +1,7 @@
 def reversNumber(num):
 
     #converting to string
-    string = int(num)
+    string = str(num)
 
     #reversing the string
     string = list(string)
