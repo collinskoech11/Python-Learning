@@ -7,5 +7,5 @@ class Solution:
         elif x<0:
             num = '-'+num
         
-        return int(num)
+        print int(num)
         
