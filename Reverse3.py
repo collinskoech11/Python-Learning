@@ -4,6 +4,6 @@ def Reverse(num):
     reversedNumber = int(reverseString)
     return reversedNumber
     
-num = input('enter a number')
+num = input('enter a number: ')
 print(Reverse)
 
