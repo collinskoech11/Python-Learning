@@ -1,5 +1,3 @@
-
-
 num = input('enter a number')
 stringNumber = str(num)
 reveseNumber = stringNumber[::-1]
