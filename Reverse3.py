@@ -1,4 +1,5 @@
-def reverse(self, x: int) -> int:
+class Solution:
+    def reverse(self, x: int) -> int:
         num = str(abs(x))[::-1]
         
         if (int(num) > ((-2)**31) & int(num) > (((2)**31) - 1)):
@@ -7,4 +8,4 @@ def reverse(self, x: int) -> int:
             num = '-'+num
         
         return int(num)
-
+        
