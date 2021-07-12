@@ -1,9 +1,10 @@
-def Reverse(num):
-    stringNumber = str(num)
-    reverseString = stringNumber[::-1]
-    reversedNumber = int(reverseString)
-    return reversedNumber
-    
-num = input('enter a number: ')
-print(Reverse)
+def reverse(self, x: int) -> int:
+        num = str(abs(x))[::-1]
+        
+        if (int(num) > ((-2)**31) & int(num) > (((2)**31) - 1)):
+            num = '0'
+        elif x<0:
+            num = '-'+num
+        
+        return int(num)
 
