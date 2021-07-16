@@ -1,9 +1,9 @@
 def ispalindrome(palindrome):
 
     if palindrome == True:
-        return True
+        print('True')
     else:
-        return False
+        print('False')
 
-palindrome = True
+palindrome = False
 ispalindrome(palindrome)
