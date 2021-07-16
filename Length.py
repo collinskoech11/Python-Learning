@@ -1,3 +1,3 @@
 countries = ['kenya','tanzania','uganda']
 
-print(countries.count('kenya'))
+print(len(countries[0]))
