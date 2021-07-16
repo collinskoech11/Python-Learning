@@ -1,3 +1,3 @@
 countries = ['kenya','tanzania','uganda']
 
-print()
+print(len(countries[1]))
