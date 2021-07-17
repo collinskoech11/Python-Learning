@@ -4,4 +4,5 @@ class Person:
         self.lastname = lastname
 
     fistname = input('enter first name: ')
+    lastname = input('enter last name: ')
         
