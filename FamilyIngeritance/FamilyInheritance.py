@@ -5,7 +5,7 @@ class Family:
        
 
         if self.name == 'mwende':
-            print('your name is same as your grandmother')
+            print('your name is same as your granny')
         else:
             print('welcome ')
 
