@@ -4,6 +4,11 @@ class Family:
         self.complexion = complexion
         self.height = height
 
+        if self.name == 'mwende':
+            print('your name is same as your grandmother')
+        else:
+            print(g1.name)
+
 
 class GrandKid(Family):
     def height(self):
