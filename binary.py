@@ -1,2 +1,2 @@
-num = int(input('enter a number'))
-print(bin(num))
+num = int(input('enter a number: '))
+print('The binary number is: ', bin(num))
