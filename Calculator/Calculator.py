@@ -12,4 +12,4 @@ elif op == '*':
 elif op == '/':
     print(abs(num1 / num2))
 else:
-    print()
+    print('invalid operand!')
