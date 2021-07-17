@@ -5,6 +5,7 @@ class Family:
        
 
         if self.name == 'mwende':
+            clear(g1.name)
             print('your name is same as your grandmother')
         else:
             print('your name is not as your grandmother')
