@@ -11,7 +11,7 @@ class Dog(Animal):
     def bark(self):
         print('woof!')
 
-fido = Cat('daphne', 'white')
+fido = Dog('daphne', 'white')
 print(fido.name)
 print(fido.color)
-fido.purr()
+fido.bark()
