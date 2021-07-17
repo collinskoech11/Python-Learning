@@ -1,5 +1,5 @@
 class Family:
-    def __init__(self, name, complexion,height):
+    def __init__(self, name, complexion):
         self.name = name
         self.complexion = complexion
        
