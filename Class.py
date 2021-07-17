@@ -6,6 +6,6 @@ class Person:
 fistname = input('enter first name: ')
 lastname = input('enter last name: ')
 p1 = Person(fistname, lastname)
-print('the first name is '+ p1.firstname + ' and the last name is ' + p1.lastname)
+print('Your first name is '+ p1.firstname + ' and the last name is ' + p1.lastname)
 
         
