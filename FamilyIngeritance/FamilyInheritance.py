@@ -2,7 +2,7 @@ class Family:
     def __init__(self, name, complexion,height):
         self.name = name
         self.complexion = complexion
-        self.height = height
+       
 
         if self.name == 'mwende':
             print('your name is same as your grandmother')
