@@ -5,4 +5,5 @@ class Person:
 
     fistname = input('enter first name: ')
     lastname = input('enter last name: ')
+    
         
