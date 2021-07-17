@@ -3,7 +3,8 @@ class Person:
         self.firstname = firstname
         self.lastname = lastname
 
-    fistname = input('enter first name: ')
-    lastname = input('enter last name: ')
-    
+fistname = input('enter first name: ')
+lastname = input('enter last name: ')
+
+
         
