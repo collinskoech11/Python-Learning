@@ -10,5 +10,5 @@ class GrandKid(Family):
 nem = input('enter your name: ')
 complexs = input('enter your complexion')
 g1 = GrandKid(nem, complexs)
-print('your name is: ' + g1.nem + ' and your complexion is ' + g1.complexs)
+print('your name is: ' + g1.name + ' and your complexion is ' + g1.complexion)
        
