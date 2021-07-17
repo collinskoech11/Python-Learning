@@ -10,5 +10,6 @@ class GrandKid(Family):
 nem = input('enter your name: ')
 complexs = input('enter your complexion: ')
 g1 = GrandKid(nem, complexs)
-print('your name is: ' + g1.name + ' and your complexion is ' + g1.complexion + ' same as your grandmothe but you are '+ g1.height + ' than her')
+print('your name is: ' + g1.name + ' and your complexion is ' + g1.complexion + ' same as your grandmothe but you are ')
+g1.height()
        
