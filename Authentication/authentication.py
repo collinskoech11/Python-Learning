@@ -8,3 +8,8 @@ print('Please login')
 
 username1 = input('Enter username: ')
 password1 = input('Enter password: ')
+
+if username1 == username and password1 == password:
+    print('Login successful')
+else:
+    print('Invalid credentials... try again')
