@@ -3,7 +3,7 @@ def Palindrome(num):
     rString = number[::-1]
     reversed = int(rString)
 
-    if reversed != num and reversed != abs(num):
+    if reversed != num and reversed != int:
         return False
     else:
         return True
