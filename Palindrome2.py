@@ -3,10 +3,10 @@ def Palindrome(num):
     rString = number[::-1]
     reversed = int(rString)
 
-    if reversed == num:
-        return True
-    else:
+    if reversed != num and reversed != abs:
         return False
+    else:
+        return True
         
 
 number = input('Enter a number: ')
