@@ -3,6 +3,12 @@ def Palindrome(num):
     rString = number[::-1]
     reversed = int(rString)
 
+    if reversed == num:
+        return True
+    elif reversed != abs(num):
+        return False
+    else:
+        return False
     
         
 
