@@ -8,4 +8,4 @@ def Palindrome(num):
     else:
         return False
 
-number = int(input())
+number = int(input('Enter a number'))
