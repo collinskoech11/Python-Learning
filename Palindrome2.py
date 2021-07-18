@@ -8,5 +8,5 @@ def Palindrome(num):
     else:
         return False
 
-number = int(input('Enter a number'))
+number = int(input('Enter a number: '))
 print(Palindrome(number))
