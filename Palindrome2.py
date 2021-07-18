@@ -1,7 +1,7 @@
 def Palindrome(num):
     number = str(num)
     rString = number[::-1]
-    reversed = int(abs(rString))
+    reversed = int(rString)
 
     if reversed == num:
         return True
