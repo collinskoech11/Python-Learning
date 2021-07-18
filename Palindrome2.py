@@ -6,3 +6,4 @@ def Palindrome(num):
     if reversed == num:
         return True
     else:
+        return False
