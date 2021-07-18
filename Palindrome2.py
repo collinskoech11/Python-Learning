@@ -7,3 +7,5 @@ def Palindrome(num):
         return True
     else:
         return False
+
+number = int(input())
