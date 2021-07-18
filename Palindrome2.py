@@ -9,4 +9,4 @@ def Palindrome(num):
         return False
 
 number = int(input('Enter a number'))
-print()
+print(Palindrome(number))
