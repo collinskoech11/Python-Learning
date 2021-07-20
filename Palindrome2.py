@@ -12,3 +12,4 @@ def Palindrome(num):
 
 number = input('Enter a number: ')
 print(Palindrome(number))
+
