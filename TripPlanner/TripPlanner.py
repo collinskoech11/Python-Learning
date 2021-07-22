@@ -5,4 +5,4 @@ def Planner():
     time = (distance/speed)
     return time
 
-print('you arrive at your destination  within' + Planner())
+print('you arrive at your destination in' + Planner())
