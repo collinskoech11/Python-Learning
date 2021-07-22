@@ -5,4 +5,4 @@ def Planner():
     time = (distance/speed) * 60
     return time
 
-print(Planner())
+print('' + Planner())
