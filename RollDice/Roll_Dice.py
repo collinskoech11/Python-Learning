@@ -1,3 +1,4 @@
+#simple roll dice  program
 import random
 
 def main():
