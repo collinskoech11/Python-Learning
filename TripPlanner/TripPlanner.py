@@ -2,7 +2,7 @@
 def Planner():
     speed = 30
     distance = 600
-    time = (distance/speed) * 60
+    time = (distance/speed)
     return time
 
-print('' + Planner())
+print('you arive at your destination  within' + Planner())
