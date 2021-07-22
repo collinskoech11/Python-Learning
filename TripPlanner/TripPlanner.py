@@ -3,3 +3,6 @@ def Planner():
     speed = 40
     distance = 600
     time = (distance/speed) * 60
+    return time
+
+Planner()
